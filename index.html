@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<script>document.documentElement.className = 'js';try{if(sessionStorage.getItem('av-loaded'))document.documentElement.classList.add('skip-loader')}catch(e){}</script>
+
+<title>Aerovise — Web Design &amp; AI Automation Studio</title>
+<meta name="description" content="Aerovise is a boutique web design and AI automation studio. We build cinematic, fast, conversion-focused websites and automation systems for ambitious brands worldwide." />
+<link rel="canonical" href="https://aerovise.tech/" />
+<meta name="theme-color" content="#0a0a0b" />
+<meta name="color-scheme" content="dark" />
+<meta name="author" content="Saif Alamgir, Sharafat Alamgir" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Aerovise" />
+<meta property="og:title" content="Aerovise — Web Design &amp; AI Automation Studio" />
+<meta property="og:description" content="Cinematic websites and intelligent automation for ambitious brands. Built by two founders, no middlemen." />
+<meta property="og:url" content="https://aerovise.tech/" />
+<meta property="og:image" content="https://aerovise.tech/assets/img/og.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Aerovise — Web Design &amp; AI Automation Studio" />
+<meta name="twitter:description" content="Cinematic websites and intelligent automation for ambitious brands." />
+<meta name="twitter:image" content="https://aerovise.tech/assets/img/og.jpg" />
+
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+<link rel="icon" type="image/x-icon" href="favicon.ico" sizes="48x48" />
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+
+<link rel="preload" href="assets/fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="assets/fonts/fraunces-italic.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="assets/fonts/geist.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href="assets/css/styles.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://aerovise.tech/#org",
+      "name": "Aerovise",
+      "url": "https://aerovise.tech/",
+      "logo": "https://aerovise.tech/assets/img/logo.svg",
+      "image": "https://aerovise.tech/assets/img/og.jpg",
+      "description": "Boutique web design and AI automation studio building cinematic, conversion-focused websites and automation systems for ambitious brands worldwide.",
+      "slogan": "Cinematic websites. Intelligent automation.",
+      "areaServed": "Worldwide",
+      "address": { "@type": "PostalAddress", "addressLocality": "Chattogram", "addressCountry": "BD" },
+      "founder": [
+        { "@type": "Person", "name": "Saif Alamgir" },
+        { "@type": "Person", "name": "Sharafat Alamgir" }
+      ],
+      "knowsAbout": ["Web design", "Web development", "E-commerce", "AI automation", "Next.js"],
+      "sameAs": [
+        "https://www.instagram.com/aerovise.tech/",
+        "https://www.facebook.com/profile.php?id=61573357297036",
+        "https://www.fiverr.com/s/kLPkjRb"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "How long does a project take?", "acceptedAnswer": { "@type": "Answer", "text": "Most marketing sites and landing pages launch in 2–4 weeks. E-commerce platforms usually take 4–6 weeks. AI automation projects vary by scope but are often live within 1–2 weeks." } },
+        { "@type": "Question", "name": "What does a project cost?", "acceptedAnswer": { "@type": "Answer", "text": "Most website projects fall between $350 and $799. Custom e-commerce and AI automation are scoped after a short discovery call, and you get a fixed quote before any work starts." } },
+        { "@type": "Question", "name": "Do you work with international clients?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We are based in Chattogram, Bangladesh and work fully remotely with clients in the US, UK and beyond. Messages get a reply within 24 hours." } },
+        { "@type": "Question", "name": "Who actually does the work?", "acceptedAnswer": { "@type": "Answer", "text": "Us — Saif and Sharafat Alamgir. Aerovise is a two-founder studio, so there are no account managers or junior subcontractors between you and the people building your project." } },
+        { "@type": "Question", "name": "Can you redesign or rebuild my existing website?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. We audit what you have, keep what converts, and rebuild the rest — faster, cleaner and mobile-first, with your content and SEO preserved." } },
+        { "@type": "Question", "name": "What happens after launch?", "acceptedAnswer": { "@type": "Answer", "text": "You get a clean handoff, analytics and a support window to fix anything that comes up. Monthly maintenance for updates and improvements is available if you want ongoing help." } },
+        { "@type": "Question", "name": "How do payments work?", "acceptedAnswer": { "@type": "Answer", "text": "Fiverr orders are protected by Fiverr’s escrow. For direct projects we agree on milestones and invoice up front, so you always know what is due and when." } }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<body class="bg-bg text-text-primary font-body is-loading-body">
+<a href="#work" class="skip">Skip to content</a>
+
+<!-- ============ SVG SPRITE ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="logo" viewBox="0 0 244 430">
+      <path d="M122 0 0 217l122-37 122 37Z" fill="#544cb7"/>
+      <path d="M0 217l122-37 122 37-122 213Z" fill="#8179df"/>
+      <path d="M0 217h244" stroke="#6b62cf" stroke-width="3" opacity=".55"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 16 16"><path d="M4.5 11.5l7-7M5.5 4.5h6v6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-right" viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 16 16"><path d="M8 3v10M3 8h10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-x" viewBox="0 0 16 16"><path d="M4 4l8 8M12 4l-8 8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-up" viewBox="0 0 16 16"><path d="M8 13V3M4 7l4-4 4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 16 16"><path d="M8 0c.5 4.6 3.4 7.5 8 8-4.6.5-7.5 3.4-8 8-.5-4.6-3.4-7.5-8-8 4.6-.5 7.5-3.4 8-8Z" fill="currentColor"/></symbol>
+    <symbol id="i-web" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 9h18M8 14h8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-ai" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+  </defs>
+</svg>
+
+<div class="scroll-progress" id="progress" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><div class="cursor-ring"><span class="cursor-label" id="cursor-label"></span></div><div class="cursor-dot"></div></div>
+
+<!-- ============ LOADER (once per session) ============ -->
+<div id="loader" class="fixed inset-0 z-[9999] bg-bg flex flex-col" role="status" aria-live="polite" aria-label="Loading Aerovise">
+  <div class="flex-1 relative px-6 md:px-10 py-6 md:py-8">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-6 h-10 animate-float"><svg class="logo-mark" viewBox="0 0 244 430"><use href="#logo"/></svg></div>
+        <span class="eyebrow !tracking-[.3em] before:hidden">Aerovise — Studio</span>
+      </div>
+      <span class="eyebrow hidden sm:flex before:hidden">v5.0 / <span data-year>2026</span></span>
+    </div>
+    <div class="absolute inset-0 flex items-center justify-center px-6 overflow-hidden">
+      <div id="loader-word" class="font-display italic text-4xl md:text-6xl lg:text-7xl text-text-primary/85">Crafting</div>
+    </div>
+    <div class="absolute bottom-6 md:bottom-10 right-6 md:right-10">
+      <div id="loader-count" class="font-display font-light text-[clamp(4rem,12vw,9rem)] leading-none tabular-nums">000</div>
+    </div>
+    <div class="absolute bottom-6 md:bottom-10 left-6 md:left-10 max-w-[260px] hidden sm:block">
+      <div class="eyebrow before:hidden mb-2">Loading experience</div>
+      <p class="text-sm text-muted leading-relaxed">Preparing something worth your attention.</p>
+    </div>
+  </div>
+  <div class="h-[3px] bg-stroke/50 w-full"><div id="loader-bar" class="h-full origin-left scale-x-0" style="background:linear-gradient(90deg,#7f77dd,#534ab7);box-shadow:0 0 12px rgba(127,119,221,.6)"></div></div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header id="nav" class="fixed top-0 inset-x-0 z-50 flex justify-center pt-4 md:pt-6 px-4 pointer-events-none">
+  <nav class="pointer-events-auto inline-flex items-center gap-1 rounded-full backdrop-blur-xl border border-white/10 bg-bg/70 p-2 transition-shadow duration-300" id="nav-pill" aria-label="Primary">
+    <a href="#home" class="w-9 h-9 grid place-items-center rounded-full hover:bg-white/5 transition-colors" aria-label="Aerovise — home"><span class="block w-[15px] h-[26px]"><svg class="logo-mark" viewBox="0 0 244 430"><use href="#logo"/></svg></span></a>
+    <span class="hidden md:block w-px h-5 bg-stroke mx-1"></span>
+    <div class="hidden md:flex items-center gap-1">
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#studio" class="nav-link">Studio</a>
+      <a href="#process" class="nav-link">Process</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+    </div>
+    <span class="hidden md:block w-px h-5 bg-stroke mx-1"></span>
+    <a href="#contact" class="btn btn-sm btn-solid" data-magnet><span class="btn-ring"></span><span class="btn-face">Start a project <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+    <button id="menu-btn" class="md:hidden w-9 h-9 grid place-items-center rounded-full hover:bg-white/5" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+      <span class="block w-4 space-y-[5px]"><i class="block h-px bg-current transition-transform duration-300 origin-center" data-bar></i><i class="block h-px bg-current transition-transform duration-300 origin-center" data-bar></i></span>
+    </button>
+  </nav>
+</header>
+
+<div id="menu" class="fixed inset-0 z-40 bg-bg/95 backdrop-blur-xl hidden" data-lenis-prevent>
+  <div class="h-full flex flex-col justify-center px-8 gap-2">
+    <a href="#work" class="menu-link font-display italic text-5xl py-2" data-menu-link>Work</a>
+    <a href="#services" class="menu-link font-display italic text-5xl py-2" data-menu-link>Services</a>
+    <a href="#studio" class="menu-link font-display italic text-5xl py-2" data-menu-link>Studio</a>
+    <a href="#process" class="menu-link font-display italic text-5xl py-2" data-menu-link>Process</a>
+    <a href="#faq" class="menu-link font-display italic text-5xl py-2" data-menu-link>FAQ</a>
+    <a href="#contact" class="menu-link font-display italic text-5xl py-2 text-gradient" data-menu-link>Contact</a>
+    <div class="menu-link mt-10 eyebrow before:hidden">Chattogram → Worldwide</div>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section id="home" class="relative min-h-[100svh] w-full overflow-hidden" data-spot>
+  <div class="absolute inset-0" id="hero-bg">
+    <video id="hero-video" class="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto object-cover -translate-x-1/2 -translate-y-1/2" autoplay muted loop playsinline preload="metadata" aria-hidden="true"></video>
+    <div class="absolute inset-0 bg-black/65"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-bg/40 via-transparent to-bg"></div>
+    <div class="absolute inset-0 grid-bg"></div>
+    <div class="absolute inset-0 pointer-events-none" style="background:radial-gradient(600px circle at var(--hx,50%) var(--hy,40%), rgba(127,119,221,.14), transparent 60%)"></div>
+  </div>
+  <div class="glow-orb w-[560px] h-[560px] -top-40 -left-40 bg-brand-deep"></div>
+  <div class="glow-orb w-[460px] h-[460px] bottom-0 -right-20 bg-brand" style="animation-delay:-8s"></div>
+
+  <div class="absolute top-1/2 left-5 -translate-y-1/2 z-10 hidden xl:block"><div class="vertical-label">Aerovise Studio · <span data-year>2026</span></div></div>
+  <div class="absolute top-1/2 right-5 -translate-y-1/2 z-10 hidden xl:block"><div class="vertical-label">Chattogram → Worldwide</div></div>
+
+  <div class="relative z-10 min-h-[100svh] flex flex-col items-center justify-center text-center px-6 pt-28 pb-28">
+    <div data-hero class="chip glass !text-[11px] !tracking-[.25em] !px-4 !py-2 chip-live mb-8"><span id="hero-avail">Now booking new projects</span></div>
+
+    <div data-hero class="w-9 h-16 md:w-11 md:h-[76px] animate-float mb-4"><svg class="logo-mark" viewBox="0 0 244 430" aria-hidden="true"><use href="#logo"/></svg></div>
+
+    <h1 class="font-display font-light tracking-[-0.045em] leading-[.88] text-[clamp(4.25rem,15.5vw,11.5rem)] mb-7" aria-label="Aerovise">
+      <span class="mask" aria-hidden="true"><span class="hero-word">Aerovise</span></span><span class="mask" aria-hidden="true"><span class="hero-word text-gradient">.</span></span>
+    </h1>
+
+    <p data-hero class="text-xl md:text-[1.9rem] md:leading-snug text-text-primary/90 mb-5 max-w-3xl font-normal tracking-tight">
+      We design <span class="inline-block relative align-bottom h-[1.25em] overflow-hidden"><span id="role-word" class="font-display italic text-gradient inline-block pr-1">cinematic</span></span> websites<br class="hidden md:block" /> for ambitious brands.
+    </p>
+    <p data-hero class="text-sm md:text-base text-muted max-w-xl mb-10 leading-relaxed">A boutique studio building bespoke websites and AI automation that turn visitors into customers — and busywork into autopilot.</p>
+
+    <div data-hero class="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-14">
+      <a href="#work" class="btn btn-solid" data-magnet><span class="btn-ring"></span><span class="btn-face">See our work <svg class="arr arr-r" aria-hidden="true"><use href="#i-right"/></svg></span></a>
+      <a href="#contact" class="btn btn-ghost" data-magnet><span class="btn-ring"></span><span class="btn-face">Book a discovery call</span></a>
+    </div>
+
+    <ul data-hero class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-[10px] text-muted uppercase tracking-[.25em] font-mono">
+      <li>6 sites live</li><li class="opacity-30" aria-hidden="true">/</li>
+      <li>Next.js · React · AI</li><li class="opacity-30" aria-hidden="true">/</li>
+      <li>Fiverr seller</li><li class="opacity-30" aria-hidden="true">/</li>
+      <li>Remote · worldwide</li>
+    </ul>
+  </div>
+
+  <div class="scroll-cue absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-3" aria-hidden="true">
+    <span class="eyebrow before:hidden !tracking-[.3em]">Scroll</span>
+    <div class="w-px h-10 bg-stroke relative overflow-hidden"><div class="absolute inset-x-0 h-1/2 bg-text-primary animate-scroll-down"></div></div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<section class="relative border-y border-stroke py-6 overflow-hidden fade-x" aria-hidden="true">
+  <div class="marquee-track" id="marquee-1" data-marquee>
+    <span class="font-display italic text-3xl md:text-5xl px-6 text-text-primary/45">Web design</span><svg class="w-4 h-4 text-brand self-center" aria-hidden="true"><use href="#i-star"/></svg>
+    <span class="font-display italic text-3xl md:text-5xl px-6 text-text-primary/45">AI automation</span><svg class="w-4 h-4 text-brand self-center"><use href="#i-star"/></svg>
+    <span class="font-display italic text-3xl md:text-5xl px-6 text-gradient">Aerovise Studio</span><svg class="w-4 h-4 text-brand self-center"><use href="#i-star"/></svg>
+    <span class="font-display italic text-3xl md:text-5xl px-6 text-text-primary/45">E-commerce</span><svg class="w-4 h-4 text-brand self-center"><use href="#i-star"/></svg>
+    <span class="font-display italic text-3xl md:text-5xl px-6 text-text-primary/45">Brand identity</span><svg class="w-4 h-4 text-brand self-center"><use href="#i-star"/></svg>
+    <span class="font-display italic text-3xl md:text-5xl px-6 text-text-primary/45">Salons &amp; spas</span><svg class="w-4 h-4 text-brand self-center"><use href="#i-star"/></svg>
+  </div>
+</section>
+
+<!-- ============ WORK ============ -->
+<section id="work" class="section" aria-labelledby="work-h">
+  <div class="glow-orb w-[520px] h-[520px] top-40 -right-56 bg-brand-deep opacity-[.14]"></div>
+  <div class="container-x relative">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow mb-6" data-reveal>01 — Selected work</div>
+        <h2 id="work-h" class="h2" data-reveal>Live <em>launches</em>.</h2>
+      </div>
+      <p class="lede" data-reveal>Seven real, shipped websites &mdash; from a Dubai importer to a Chattogram ship-yard. Hover to peek inside, or open a live preview without leaving this page.</p>
+    </div>
+
+    <!-- Featured: Femmorah -->
+    <article class="work grid lg:grid-cols-12 gap-8 lg:gap-14 items-center mb-24 lg:mb-36" data-project="femmorah">
+      <div class="lg:col-span-8" data-reveal>
+        <a class="browser-frame" href="https://femmorah.shop/" target="_blank" rel="noopener" data-cursor="Open" aria-label="Open Femmorah live site">
+          <div class="browser-chrome"><i class="b-dot"></i><i class="b-dot"></i><i class="b-dot"></i><span class="b-url">femmorah.shop</span></div>
+          <div class="shot aspect-[21/10]" data-shot>
+            <img src="assets/works/femmorah.jpg" data-fallback="https://image.thum.io/get/width/1600/crop/840/wait/5/https://femmorah.shop/" alt="Screenshot of the Femmorah homepage: &ldquo;Soft elegance, distinctly Femmorah&rdquo; over a deep plum backdrop with a gold tennis bracelet" width="1600" height="760" loading="lazy" decoding="async" />
+            <span class="shot-fallback" aria-hidden="true">Femmorah</span>
+          </div>
+        </a>
+      </div>
+      <div class="lg:col-span-4" data-reveal>
+        <div class="work-index mb-4">Featured &middot; 01</div>
+        <h3 class="work-title text-5xl md:text-6xl mb-4">Femmorah</h3>
+        <div class="flex flex-wrap gap-2 mb-5"><span class="chip chip-live">Live</span><span class="chip">Fashion</span><span class="chip">Bangladesh</span></div>
+        <p class="text-sm md:text-[.95rem] text-muted leading-relaxed mb-6">A full fashion storefront built from scratch &mdash; product pages, cart, wishlist, coupons, COD &amp; bKash checkout, an admin dashboard and a bilingual (EN / &#2476;&#2494;&#2434;&#2482;&#2494;) experience.</p>
+        <div class="flex flex-wrap gap-2 mb-7"><span class="chip">Cart &amp; wishlist</span><span class="chip">COD &amp; bKash</span><span class="chip">Admin dashboard</span></div>
+        <div class="flex flex-wrap items-center gap-3">
+          <a href="https://femmorah.shop/" target="_blank" rel="noopener" class="btn btn-solid btn-sm"><span class="btn-ring"></span><span class="btn-face">Visit live site <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+          <button type="button" class="btn btn-ghost btn-sm" data-preview="https://femmorah.shop/" data-title="Femmorah"><span class="btn-ring"></span><span class="btn-face">Quick preview</span></button>
+        </div>
+      </div>
+    </article>
+
+    <!-- Featured: Emorah -->
+    <article class="work grid lg:grid-cols-12 gap-8 lg:gap-14 items-center mb-24 lg:mb-36" data-project="emorah">
+      <div class="lg:col-span-8 lg:order-2" data-reveal>
+        <a class="browser-frame" href="https://www.emorah.shop/" target="_blank" rel="noopener" data-cursor="Open" aria-label="Open Emorah live site">
+          <div class="browser-chrome"><i class="b-dot"></i><i class="b-dot"></i><i class="b-dot"></i><span class="b-url">emorah.shop</span></div>
+          <div class="shot aspect-[21/10]" data-shot>
+            <img src="assets/works/emorah.jpg" data-fallback="https://image.thum.io/get/width/1600/crop/840/wait/5/https://www.emorah.shop/" alt="Screenshot of the Emorah homepage: maroon silk backdrop with a perfume bottle and the headline &ldquo;The art of being remembered&rdquo;" width="1600" height="760" loading="lazy" decoding="async" />
+            <span class="shot-fallback" aria-hidden="true">Emorah</span>
+          </div>
+        </a>
+      </div>
+      <div class="lg:col-span-4 lg:order-1" data-reveal>
+        <div class="work-index mb-4">Featured &middot; 02</div>
+        <h3 class="work-title text-5xl md:text-6xl mb-4">Emorah</h3>
+        <div class="flex flex-wrap gap-2 mb-5"><span class="chip chip-live">Live</span><span class="chip">Fragrance</span><span class="chip">Bangladesh</span></div>
+        <p class="text-sm md:text-[.95rem] text-muted leading-relaxed mb-6">A fragrance house for Bangladesh &mdash; cinematic maroon-silk hero, a scent-finder quiz, combo sets, wishlist &amp; bag, WhatsApp concierge, COD &amp; bKash checkout and a Bangla toggle.</p>
+        <div class="flex flex-wrap gap-2 mb-7"><span class="chip">Scent-finder quiz</span><span class="chip">Combo sets</span><span class="chip">Bangla toggle</span></div>
+        <div class="flex flex-wrap items-center gap-3">
+          <a href="https://www.emorah.shop/" target="_blank" rel="noopener" class="btn btn-solid btn-sm"><span class="btn-ring"></span><span class="btn-face">Visit live site <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+          <button type="button" class="btn btn-ghost btn-sm" data-preview="https://www.emorah.shop/" data-title="Emorah"><span class="btn-ring"></span><span class="btn-face">Quick preview</span></button>
+        </div>
+      </div>
+    </article>
+
+    <!-- Grid: 5 more -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-6 gap-x-8 lg:gap-x-10 gap-y-16 lg:gap-y-20">
+
+      <article class="work lg:col-span-2" data-project="srenterprise" data-reveal>
+        <a class="browser-frame" href="https://www.srfreshexports.com/" target="_blank" rel="noopener" data-cursor="Open" aria-label="Open S.R Enterprise live site">
+          <div class="browser-chrome"><i class="b-dot"></i><i class="b-dot"></i><i class="b-dot"></i><span class="b-url">srfreshexports.com</span></div>
+          <div class="shot aspect-[21/10]" data-shot>
+            <img src="assets/works/srenterprise.jpg" data-fallback="https://image.thum.io/get/width/1600/crop/840/wait/5/https://www.srfreshexports.com/" alt="Screenshot of the S.R Enterprise homepage: &ldquo;Bangladesh&rsquo;s harvest, packed for Gulf importers&rdquo; with packing-line photos and a live shipping-now list" width="1600" height="760" loading="lazy" decoding="async" />
+            <span class="shot-fallback" aria-hidden="true">S.R Enterprise</span>
+          </div>
+        </a>
+        <div class="mt-6">
+          <div class="flex items-center justify-between gap-4 mb-3"><span class="work-index">03 &middot; Export</span><div class="flex gap-2"><span class="chip chip-live">Live</span><span class="chip">Export</span></div></div>
+          <h3 class="work-title text-3xl md:text-4xl mb-3">S.R Enterprise</h3>
+          <p class="text-sm text-muted leading-relaxed mb-5 max-w-md">A showcase site for a Chattogram fresh-produce exporter serving Gulf importers &mdash; a live &ldquo;shipping now&rdquo; list, seasonal availability, product catalogue, quote requests and WhatsApp, plus an admin panel so the team manages products and photos themselves.</p>
+          <div class="flex flex-wrap items-center gap-x-6 gap-y-3">
+            <a href="https://www.srfreshexports.com/" target="_blank" rel="noopener" class="link-u text-sm">Visit live site <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <button type="button" class="link-u text-sm text-muted hover:text-text-primary" data-preview="https://www.srfreshexports.com/" data-title="S.R Enterprise">Quick preview</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="work lg:col-span-2" data-project="alhayat" data-reveal>
+        <a class="browser-frame" href="https://www.alhayatalsaeeda.com/" target="_blank" rel="noopener" data-cursor="Open" aria-label="Open Alhayat Alsaeeda live site">
+          <div class="browser-chrome"><i class="b-dot"></i><i class="b-dot"></i><i class="b-dot"></i><span class="b-url">alhayatalsaeeda.com</span></div>
+          <div class="shot aspect-[21/10]" data-shot>
+            <img src="assets/works/alhayat.jpg" data-fallback="https://image.thum.io/get/width/1600/crop/840/wait/5/https://www.alhayatalsaeeda.com/" alt="Screenshot of the Alhayat Alsaeeda homepage: &ldquo;Fresh from the world&rsquo;s farms to the tables of the Emirates&rdquo; with an Arabic tagline and strawberries in a patterned arch" width="1600" height="760" loading="lazy" decoding="async" />
+            <span class="shot-fallback" aria-hidden="true">Alhayat Alsaeeda</span>
+          </div>
+        </a>
+        <div class="mt-6">
+          <div class="flex items-center justify-between gap-4 mb-3"><span class="work-index">04 &middot; B2B import</span><div class="flex gap-2"><span class="chip chip-live">Live</span><span class="chip">Dubai &middot; UAE</span></div></div>
+          <h3 class="work-title text-3xl md:text-4xl mb-3">Alhayat Alsaeeda</h3>
+          <p class="text-sm text-muted leading-relaxed mb-5 max-w-md">A bilingual English / Arabic website for a Dubai fruit &amp; vegetable importer at Al Aweer &mdash; Arabic-inspired pattern design, a 167-product catalogue, one-tap quote requests and WhatsApp, built to win market, hotel and retail accounts across the UAE.</p>
+          <div class="flex flex-wrap items-center gap-x-6 gap-y-3">
+            <a href="https://www.alhayatalsaeeda.com/" target="_blank" rel="noopener" class="link-u text-sm">Visit live site <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <button type="button" class="link-u text-sm text-muted hover:text-text-primary" data-preview="https://www.alhayatalsaeeda.com/" data-title="Alhayat Alsaeeda">Quick preview</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="work lg:col-span-2" data-project="msalamgir" data-reveal>
+        <a class="browser-frame" href="https://www.msalamgir.com/" target="_blank" rel="noopener" data-cursor="Open" aria-label="Open M/S Alamgir live site">
+          <div class="browser-chrome"><i class="b-dot"></i><i class="b-dot"></i><i class="b-dot"></i><span class="b-url">msalamgir.com</span></div>
+          <div class="shot aspect-[21/10]" data-shot>
+            <img src="assets/works/msalamgir.jpg" data-fallback="https://image.thum.io/get/width/1600/crop/840/wait/5/https://www.msalamgir.com/" alt="Screenshot of the M/S Alamgir homepage: &ldquo;Land &amp; Flat Registration, Done Right. Done Legal.&rdquo; over a dark skyline" width="1600" height="760" loading="lazy" decoding="async" />
+            <span class="shot-fallback" aria-hidden="true">M/S Alamgir</span>
+          </div>
+        </a>
+        <div class="mt-6">
+          <div class="flex items-center justify-between gap-4 mb-3"><span class="work-index">05 &middot; Property</span><div class="flex gap-2"><span class="chip chip-live">Live</span><span class="chip">Bilingual</span></div></div>
+          <h3 class="work-title text-3xl md:text-4xl mb-3">M/S Alamgir</h3>
+          <p class="text-sm text-muted leading-relaxed mb-5 max-w-md">A trust-first site for a licensed deed writer &amp; land surveyor in Chattogram &mdash; Bangla / English toggle, service-led structure, WhatsApp enquiries, a land-area converter and local-SEO foundations.</p>
+          <div class="flex flex-wrap items-center gap-x-6 gap-y-3">
+            <a href="https://www.msalamgir.com/" target="_blank" rel="noopener" class="link-u text-sm">Visit live site <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <button type="button" class="link-u text-sm text-muted hover:text-text-primary" data-preview="https://www.msalamgir.com/" data-title="M/S Alamgir">Quick preview</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="work lg:col-span-3" data-project="kings" data-reveal>
+        <a class="browser-frame" href="https://kingsautocomplex.netlify.app/" target="_blank" rel="noopener" data-cursor="Open" aria-label="Open King&rsquo;s Auto Complex live site">
+          <div class="browser-chrome"><i class="b-dot"></i><i class="b-dot"></i><i class="b-dot"></i><span class="b-url">kingsautocomplex.netlify.app</span></div>
+          <div class="shot aspect-[21/10]" data-shot>
+            <img src="assets/works/kings.jpg" data-fallback="https://image.thum.io/get/width/1600/crop/840/wait/5/https://kingsautocomplex.netlify.app/" alt="Screenshot of the King&rsquo;s Auto Complex homepage: &ldquo;We keep your machine alive&rdquo; over a night-time showroom photo" width="1600" height="760" loading="lazy" decoding="async" />
+            <span class="shot-fallback" aria-hidden="true">King&rsquo;s Auto Complex</span>
+          </div>
+        </a>
+        <div class="mt-6">
+          <div class="flex items-center justify-between gap-4 mb-3"><span class="work-index">06 &middot; Automotive</span><div class="flex gap-2"><span class="chip chip-live">Live</span><span class="chip">Dark &amp; gold</span><span class="chip">Single page</span></div></div>
+          <h3 class="work-title text-3xl md:text-4xl mb-3">King&rsquo;s Auto Complex</h3>
+          <p class="text-sm text-muted leading-relaxed mb-5 max-w-md">A luxury dark-and-gold landing site for a Chattogram auto complex &mdash; showroom-grade imagery, clear service and package blocks, and click-to-contact calls to action.</p>
+          <div class="flex flex-wrap items-center gap-x-6 gap-y-3">
+            <a href="https://kingsautocomplex.netlify.app/" target="_blank" rel="noopener" class="link-u text-sm">Visit live site <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <button type="button" class="link-u text-sm text-muted hover:text-text-primary" data-preview="https://kingsautocomplex.netlify.app/" data-title="King&rsquo;s Auto Complex">Quick preview</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="work lg:col-span-3" data-project="ssbi" data-reveal>
+        <a class="browser-frame" href="https://ssbibd.netlify.app/" target="_blank" rel="noopener" data-cursor="Open" aria-label="Open Sagarika Ship Breaking live site">
+          <div class="browser-chrome"><i class="b-dot"></i><i class="b-dot"></i><i class="b-dot"></i><span class="b-url">ssbibd.netlify.app</span></div>
+          <div class="shot aspect-[21/10]" data-shot>
+            <img src="assets/works/ssbi.jpg" data-fallback="https://image.thum.io/get/width/1600/crop/840/wait/5/https://ssbibd.netlify.app/" alt="Screenshot of the Sagarika Ship Breaking homepage: bold &ldquo;Sagarika Ship Recycling&rdquo; headline over the yard office with capacity stats" width="1600" height="760" loading="lazy" decoding="async" />
+            <span class="shot-fallback" aria-hidden="true">Sagarika Ship Breaking</span>
+          </div>
+        </a>
+        <div class="mt-6">
+          <div class="flex items-center justify-between gap-4 mb-3"><span class="work-index">07 &middot; Industrial</span><div class="flex gap-2"><span class="chip chip-live">Live</span><span class="chip">Corporate</span><span class="chip">GSAP</span></div></div>
+          <h3 class="work-title text-3xl md:text-4xl mb-3">Sagarika Ship Breaking</h3>
+          <p class="text-sm text-muted leading-relaxed mb-5 max-w-md">A corporate site for a Sitakundo ship-recycling yard &mdash; GSAP scroll storytelling, capacity stats, a compliance section, a yard gallery and a quote form for ship sellers and steel buyers.</p>
+          <div class="flex flex-wrap items-center gap-x-6 gap-y-3">
+            <a href="https://ssbibd.netlify.app/" target="_blank" rel="noopener" class="link-u text-sm">Visit live site <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <button type="button" class="link-u text-sm text-muted hover:text-text-primary" data-preview="https://ssbibd.netlify.app/" data-title="Sagarika Ship Breaking">Quick preview</button>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="mt-24 flex flex-col items-center gap-5 text-center" data-reveal>
+      <p class="font-display italic text-2xl md:text-3xl text-text-primary/80">Your brand could be next.</p>
+      <a href="#contact" class="btn btn-ghost" data-magnet><span class="btn-ring"></span><span class="btn-face">Start a project <svg class="arr arr-r" aria-hidden="true"><use href="#i-right"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section id="services" class="section" aria-labelledby="services-h">
+  <div class="container-x">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow mb-6" data-reveal>02 — What we do</div>
+        <h2 id="services-h" class="h2" data-reveal>Two crafts.<br />One <em>obsession</em>.</h2>
+      </div>
+      <p class="lede" data-reveal>Design fidelity meets engineering precision — products that feel inevitable, not assembled.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-5 md:gap-6" data-stagger>
+      <article class="card spotlight p-8 md:p-10 overflow-hidden" data-reveal data-tilt>
+        <div class="relative z-10">
+          <div class="flex items-center justify-between mb-10">
+            <div class="w-14 h-14 rounded-full border border-brand/50 grid place-items-center text-brand"><svg class="w-6 h-6" aria-hidden="true"><use href="#i-web"/></svg></div>
+            <span class="eyebrow before:hidden">01 / Web</span>
+          </div>
+          <h3 class="font-display italic font-normal text-3xl md:text-4xl tracking-tight mb-4">Web design &amp; development</h3>
+          <p class="text-muted leading-relaxed mb-8">Bespoke sites built with Next.js, React and motion-first interaction design. From a razor-sharp landing page to a full e-commerce platform — we ship fast, render fast, convert fast.</p>
+          <ul class="space-y-3 mb-8 text-sm text-text-primary/85">
+            <li class="flex gap-3"><svg class="w-3 h-3 mt-1.5 text-brand shrink-0" aria-hidden="true"><use href="#i-star"/></svg>Marketing sites &amp; landing pages</li>
+            <li class="flex gap-3"><svg class="w-3 h-3 mt-1.5 text-brand shrink-0" aria-hidden="true"><use href="#i-star"/></svg>E-commerce with COD, cards &amp; local wallets</li>
+            <li class="flex gap-3"><svg class="w-3 h-3 mt-1.5 text-brand shrink-0" aria-hidden="true"><use href="#i-star"/></svg>Redesigns that keep your SEO and fix your speed</li>
+            <li class="flex gap-3"><svg class="w-3 h-3 mt-1.5 text-brand shrink-0" aria-hidden="true"><use href="#i-star"/></svg>Dashboards, admin panels &amp; web apps</li>
+          </ul>
+          <div class="flex flex-wrap gap-2"><span class="chip">Next.js</span><span class="chip">React</span><span class="chip">Tailwind</span><span class="chip">GSAP</span><span class="chip">Supabase</span></div>
+        </div>
+      </article>
+
+      <article class="card spotlight p-8 md:p-10 overflow-hidden" data-reveal data-tilt>
+        <div class="relative z-10">
+          <div class="flex items-center justify-between mb-10">
+            <div class="w-14 h-14 rounded-full border border-brand/50 grid place-items-center text-brand"><svg class="w-6 h-6" aria-hidden="true"><use href="#i-ai"/></svg></div>
+            <span class="eyebrow before:hidden">02 / AI</span>
+          </div>
+          <h3 class="font-display italic font-normal text-3xl md:text-4xl tracking-tight mb-4">AI automation systems</h3>
+          <p class="text-muted leading-relaxed mb-8">Custom workflows that answer customers, capture leads and move data between your tools — so your team spends its time on strategy while the machines handle the repeatable work.</p>
+          <ul class="space-y-3 mb-8 text-sm text-text-primary/85">
+            <li class="flex gap-3"><svg class="w-3 h-3 mt-1.5 text-brand shrink-0" aria-hidden="true"><use href="#i-star"/></svg>AI chat &amp; booking assistants trained on your brand</li>
+            <li class="flex gap-3"><svg class="w-3 h-3 mt-1.5 text-brand shrink-0" aria-hidden="true"><use href="#i-star"/></svg>Lead capture, enrichment &amp; CRM sync</li>
+            <li class="flex gap-3"><svg class="w-3 h-3 mt-1.5 text-brand shrink-0" aria-hidden="true"><use href="#i-star"/></svg>Follow-ups, reminders &amp; review requests</li>
+            <li class="flex gap-3"><svg class="w-3 h-3 mt-1.5 text-brand shrink-0" aria-hidden="true"><use href="#i-star"/></svg>Content &amp; internal-ops pipelines</li>
+          </ul>
+          <div class="flex flex-wrap gap-2"><span class="chip">OpenAI</span><span class="chip">Claude</span><span class="chip">n8n</span><span class="chip">Make</span><span class="chip">Zapier</span></div>
+        </div>
+      </article>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 mt-6" data-stagger>
+      <div class="card p-5" data-reveal><div class="eyebrow before:hidden mb-3">+ Add-on</div><div class="font-display italic text-2xl mb-1">Brand identity</div><p class="text-xs text-muted">Logo, palette &amp; type system</p></div>
+      <div class="card p-5" data-reveal><div class="eyebrow before:hidden mb-3">+ Add-on</div><div class="font-display italic text-2xl mb-1">SEO foundation</div><p class="text-xs text-muted">Schema, sitemap &amp; performance</p></div>
+      <div class="card p-5" data-reveal><div class="eyebrow before:hidden mb-3">+ Add-on</div><div class="font-display italic text-2xl mb-1">Cold outreach</div><p class="text-xs text-muted">Lead lists &amp; automated sequences</p></div>
+      <div class="card p-5" data-reveal><div class="eyebrow before:hidden mb-3">+ Add-on</div><div class="font-display italic text-2xl mb-1">Maintenance</div><p class="text-xs text-muted">Monthly updates &amp; support</p></div>
+    </div>
+
+    <div class="mt-16 flex flex-wrap items-center gap-x-3 gap-y-3" data-reveal>
+      <span class="eyebrow before:hidden mr-2">Built for</span>
+      <span class="chip">Salons &amp; spas</span><span class="chip">E-commerce brands</span><span class="chip">Local businesses</span><span class="chip">Professional services</span><span class="chip">Real estate</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STUDIO / TEAM ============ -->
+<section id="studio" class="section" aria-labelledby="studio-h">
+  <div class="glow-orb w-[520px] h-[520px] -top-32 left-1/2 -translate-x-1/2 bg-brand-deep opacity-[.16]"></div>
+  <div class="container-x relative">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow mb-6" data-reveal>03 — The studio</div>
+        <h2 id="studio-h" class="h2" data-reveal>The hands<br />behind the <em>work</em>.</h2>
+      </div>
+      <p class="lede" data-reveal>A studio of two — brothers, builders, full-time obsessives. When you hire Aerovise, you hire us. No account managers, no hand-offs, no surprises.</p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16" data-stagger>
+      <div class="border-l border-stroke pl-5" data-reveal><div class="font-display italic text-3xl text-gradient mb-2">Bespoke</div><p class="text-xs text-muted leading-relaxed">Every project is hand-designed. No templates.</p></div>
+      <div class="border-l border-stroke pl-5" data-reveal><div class="font-display italic text-3xl text-gradient mb-2">Fast</div><p class="text-xs text-muted leading-relaxed">Most launches in 2–4 weeks, not months.</p></div>
+      <div class="border-l border-stroke pl-5" data-reveal><div class="font-display italic text-3xl text-gradient mb-2">Direct</div><p class="text-xs text-muted leading-relaxed">You talk to the builders. No middlemen.</p></div>
+      <div class="border-l border-stroke pl-5" data-reveal><div class="font-display italic text-3xl text-gradient mb-2">Honest</div><p class="text-xs text-muted leading-relaxed">Clear scope, real timelines, regular updates.</p></div>
+    </div>
+
+    <div class="grid md:grid-cols-5 gap-6 md:gap-8">
+      <!-- Saif -->
+      <article class="team-card card spotlight md:col-span-3 overflow-hidden" data-reveal>
+        <div class="grid sm:grid-cols-5 h-full">
+          <div class="avatar-frame sm:col-span-2 aspect-[4/5] sm:aspect-auto sm:min-h-[500px]">
+            <img src="assets/img/saif.webp" alt="Portrait of Saif Alamgir, co-founder of Aerovise" width="800" height="1236" loading="lazy" decoding="async" />
+            <span class="chip glass absolute left-4 top-4 z-[3] !text-[9px] !text-text-primary/80">Co-founder</span>
+          </div>
+          <div class="sm:col-span-3 p-7 md:p-9 flex flex-col relative z-10">
+            <div class="flex items-start justify-between gap-3 mb-5">
+              <div>
+                <div class="eyebrow before:hidden mb-2">Founder · Lead developer</div>
+                <h3 class="font-display italic font-normal text-4xl md:text-5xl tracking-tight">Saif Alamgir</h3>
+              </div>
+              <span class="chip chip-live shrink-0">Available</span>
+            </div>
+            <p class="text-sm text-muted leading-relaxed mb-6">Full-stack developer obsessed with motion design and conversion-focused interfaces. Builds with Next.js, React and AI tooling, and leads design direction and architecture on every project — from Femmorah and Emorah to client sites.</p>
+            <div class="flex flex-wrap gap-2 mb-auto"><span class="chip">Next.js</span><span class="chip">React</span><span class="chip">Framer Motion</span><span class="chip">AI systems</span><span class="chip">Supabase</span></div>
+            <div class="flex items-center gap-5 pt-6 mt-8 border-t border-stroke text-xs font-mono uppercase tracking-[.2em]">
+              <a class="link-u" href="https://www.fiverr.com/s/kLPkjRb" target="_blank" rel="noopener">Fiverr <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              <a class="link-u" href="https://www.instagram.com/aerovise.tech/" target="_blank" rel="noopener">Instagram <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Sharafat -->
+      <article class="team-card card spotlight md:col-span-2 overflow-hidden flex flex-col" data-reveal>
+        <div class="portrait min-h-[230px] flex-1 grid place-items-center">
+          <div class="portrait-glow" aria-hidden="true" style="top:50%"></div>
+          <div class="relative w-20 h-36 animate-float"><svg class="logo-mark" viewBox="0 0 244 430" aria-hidden="true"><use href="#logo"/></svg></div>
+          <span class="chip glass absolute left-4 top-4 z-[3] !text-[9px] !text-text-primary/80">Co-founder</span>
+        </div>
+        <div class="p-7 md:p-9 relative z-10">
+          <div class="flex items-start justify-between gap-3 mb-5">
+            <div>
+              <div class="eyebrow before:hidden mb-2">Strategy &amp; operations</div>
+              <h3 class="font-display italic font-normal text-4xl tracking-tight">Sharafat Alamgir</h3>
+            </div>
+            <span class="chip chip-live shrink-0">Available</span>
+          </div>
+          <p class="text-sm text-muted leading-relaxed mb-6">Drives strategy, client communication and project operations — making sure every project ships on brief and on time, and that you always know where things stand.</p>
+          <div class="flex flex-wrap gap-2 mb-8"><span class="chip">Strategy</span><span class="chip">Project ops</span><span class="chip">Client success</span><span class="chip">QA</span></div>
+          <div class="flex items-center gap-5 pt-6 border-t border-stroke text-xs font-mono uppercase tracking-[.2em]">
+            <a class="link-u" href="https://www.facebook.com/profile.php?id=61573357297036" target="_blank" rel="noopener">Facebook <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="link-u" href="mailto:aerovise9@gmail.com" data-email>Email <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section id="process" class="section" aria-labelledby="process-h">
+  <div class="container-x">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow mb-6" data-reveal>04 — How we work</div>
+        <h2 id="process-h" class="h2" data-reveal>A process built<br />for <em>velocity</em>.</h2>
+      </div>
+      <p class="lede" data-reveal>Four clear steps, one shared scope, no mystery. You see progress early and often.</p>
+    </div>
+
+    <div class="relative pt-10" id="process-track">
+      <div class="p-line hidden md:block" style="top:2.5rem"><div class="p-line-fill" id="process-fill"></div></div>
+      <ol class="grid md:grid-cols-4 gap-10 md:gap-6">
+        <li class="p-step relative md:pt-8" data-reveal style="--i:0"><div class="p-num mb-5">01</div><div class="eyebrow before:hidden mb-2">Step one</div><h3 class="text-xl font-medium mb-3">Discovery</h3><p class="text-sm text-muted leading-relaxed">A short call to understand your goals, audience, brand and competitors. You leave with a clear scope and a fixed quote.</p></li>
+        <li class="p-step relative md:pt-8" data-reveal><div class="p-num mb-5">02</div><div class="eyebrow before:hidden mb-2">Step two</div><h3 class="text-xl font-medium mb-3">Design</h3><p class="text-sm text-muted leading-relaxed">High-fidelity mockups with real motion specs. We iterate together until you’re genuinely excited about it.</p></li>
+        <li class="p-step relative md:pt-8" data-reveal><div class="p-num mb-5">03</div><div class="eyebrow before:hidden mb-2">Step three</div><h3 class="text-xl font-medium mb-3">Build</h3><p class="text-sm text-muted leading-relaxed">Production-grade code with performance, accessibility, SEO and analytics baked in from day one.</p></li>
+        <li class="p-step relative md:pt-8" data-reveal><div class="p-num mb-5">04</div><div class="eyebrow before:hidden mb-2">Step four</div><h3 class="text-xl font-medium mb-3">Launch</h3><p class="text-sm text-muted leading-relaxed">Deployment, domain setup, analytics and a clean handoff — plus support so nothing slips after go-live.</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS (shown only when CONFIG.reviews has entries) ============ -->
+<section id="reviews" class="section" hidden aria-labelledby="reviews-h">
+  <div class="container-x">
+    <div class="eyebrow mb-6">— Words from clients</div>
+    <h2 id="reviews-h" class="h2 mb-14">Kind <em>words</em>.</h2>
+    <div id="reviews-list" class="grid md:grid-cols-2 gap-6"></div>
+  </div>
+</section>
+
+<!-- ============ STACK ============ -->
+<section id="stack" class="section" aria-labelledby="stack-h">
+  <div class="container-x">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow mb-6" data-reveal>05 — Tools we trust</div>
+        <h2 id="stack-h" class="h2" data-reveal>The <em>stack</em>.</h2>
+      </div>
+      <p class="lede" data-reveal>Modern, boring-where-it-matters tooling — so your site is quick today and easy to extend tomorrow.</p>
+    </div>
+    <div class="grid grid-cols-3 md:grid-cols-6 gap-3" data-stagger>
+      <div class="tile" data-reveal><span class="glyph text-gradient">N</span><span class="label">Next.js</span></div>
+      <div class="tile" data-reveal><span class="glyph text-gradient">R</span><span class="label">React</span></div>
+      <div class="tile" data-reveal><span class="glyph text-gradient">T</span><span class="label">Tailwind</span></div>
+      <div class="tile" data-reveal><span class="glyph text-gradient">M</span><span class="label">Motion</span></div>
+      <div class="tile" data-reveal><span class="glyph text-gradient">G</span><span class="label">GSAP</span></div>
+      <div class="tile" data-reveal><span class="glyph text-gradient">S</span><span class="label">Supabase</span></div>
+      <div class="tile" data-reveal><span class="glyph text-gradient">V</span><span class="label">Vercel</span></div>
+      <div class="tile" data-reveal><span class="glyph text-gradient">F</span><span class="label">Figma</span></div>
+      <div class="tile" data-reveal><span class="glyph text-gradient">O</span><span class="label">OpenAI</span></div>
+      <div class="tile" data-reveal><span class="glyph text-gradient">C</span><span class="label">Claude</span></div>
+      <div class="tile" data-reveal><span class="glyph text-gradient">n</span><span class="label">n8n</span></div>
+      <div class="tile" data-reveal><span class="glyph text-gradient">M</span><span class="label">Make</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="section !py-20 md:!py-28" aria-label="Studio at a glance">
+  <div class="glow-orb w-[420px] h-[420px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-brand-deep opacity-[.14]"></div>
+  <div class="container-x relative">
+    <dl class="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-14" data-stagger>
+      <div data-reveal><dd class="font-display italic font-light text-text-primary text-[clamp(4rem,9vw,7.5rem)] leading-none mb-3"><span class="text-gradient" data-count="7" data-suffix="">0</span></dd><dt class="eyebrow before:hidden !tracking-[.2em]">Sites live</dt><p class="text-xs text-muted/70 mt-2">UAE, Gulf &amp; Bangladesh</p></div>
+      <div data-reveal><dd class="font-display italic font-light text-text-primary text-[clamp(4rem,9vw,7.5rem)] leading-none mb-3"><span class="text-gradient" data-count="2" data-suffix="">0</span></dd><dt class="eyebrow before:hidden !tracking-[.2em]">Founders</dt><p class="text-xs text-muted/70 mt-2">Zero middlemen</p></div>
+      <div data-reveal><dd class="font-display italic font-light text-text-primary text-[clamp(4rem,9vw,7.5rem)] leading-none mb-3"><span class="text-gradient" data-count="100" data-suffix="%">0%</span></dd><dt class="eyebrow before:hidden !tracking-[.2em]">Custom-coded</dt><p class="text-xs text-muted/70 mt-2">No templates. Ever.</p></div>
+      <div data-reveal><dd class="font-display italic font-light text-text-primary text-[clamp(4rem,9vw,7.5rem)] leading-none mb-3"><span class="text-gradient" data-count="24" data-suffix="h">0h</span></dd><dt class="eyebrow before:hidden !tracking-[.2em]">Reply time</dt><p class="text-xs text-muted/70 mt-2">From any timezone</p></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq" class="section" aria-labelledby="faq-h">
+  <div class="container-x max-w-[1000px]">
+    <div class="eyebrow mb-6" data-reveal>06 — Common questions</div>
+    <h2 id="faq-h" class="h2 mb-14" data-reveal>Frequently <em>asked</em>.</h2>
+    <div class="space-y-3" data-stagger>
+      <details class="faq" data-reveal><summary><span>How long does a project take?</span><span class="faq-icon"><svg class="w-3.5 h-3.5" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="faq-body"><p>Most marketing sites and landing pages launch in 2–4 weeks. E-commerce platforms usually take 4–6 weeks. AI automation projects vary by scope but are often live within 1–2 weeks.</p></div></details>
+      <details class="faq" data-reveal><summary><span>What does a project cost?</span><span class="faq-icon"><svg class="w-3.5 h-3.5" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="faq-body"><p>Most website projects fall between $350 and $799. Custom e-commerce and AI automation are scoped after a short discovery call, and you get a fixed quote before any work starts.</p></div></details>
+      <details class="faq" data-reveal><summary><span>Do you work with international clients?</span><span class="faq-icon"><svg class="w-3.5 h-3.5" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="faq-body"><p>Yes. We are based in Chattogram, Bangladesh and work fully remotely with clients in the US, UK and beyond. Messages get a reply within 24 hours.</p></div></details>
+      <details class="faq" data-reveal><summary><span>Who actually does the work?</span><span class="faq-icon"><svg class="w-3.5 h-3.5" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="faq-body"><p>Us — Saif and Sharafat Alamgir. Aerovise is a two-founder studio, so there are no account managers or junior subcontractors between you and the people building your project.</p></div></details>
+      <details class="faq" data-reveal><summary><span>Can you redesign or rebuild my existing website?</span><span class="faq-icon"><svg class="w-3.5 h-3.5" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="faq-body"><p>Absolutely. We audit what you have, keep what converts, and rebuild the rest — faster, cleaner and mobile-first, with your content and SEO preserved.</p></div></details>
+      <details class="faq" data-reveal><summary><span>What happens after launch?</span><span class="faq-icon"><svg class="w-3.5 h-3.5" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="faq-body"><p>You get a clean handoff, analytics and a support window to fix anything that comes up. Monthly maintenance for updates and improvements is available if you want ongoing help.</p></div></details>
+      <details class="faq" data-reveal><summary><span>How do payments work?</span><span class="faq-icon"><svg class="w-3.5 h-3.5" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="faq-body"><p>Fiverr orders are protected by Fiverr’s escrow. For direct projects we agree on milestones and invoice up front, so you always know what is due and when.</p></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section !pb-10 md:!pb-14" aria-labelledby="contact-h">
+  <div class="absolute inset-0 opacity-30 pointer-events-none" aria-hidden="true">
+    <video id="footer-video" class="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto object-cover" style="transform:translate(-50%,-50%) scaleY(-1)" autoplay muted loop playsinline preload="none"></video>
+    <div class="absolute inset-0 bg-bg/70"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-bg via-transparent to-bg"></div>
+  </div>
+
+  <div class="relative fade-x overflow-hidden mb-20 md:mb-28" aria-hidden="true">
+    <div class="marquee-track" id="marquee-2" data-marquee>
+      <span class="font-display italic font-light text-[clamp(3.5rem,9vw,8rem)] px-8 text-text-primary">Let’s build the future</span><svg class="w-6 h-6 text-brand self-center"><use href="#i-star"/></svg>
+      <span class="font-display italic font-light text-[clamp(3.5rem,9vw,8rem)] px-8 text-text-primary/30">Let’s build the future</span><svg class="w-6 h-6 text-brand self-center"><use href="#i-star"/></svg>
+    </div>
+  </div>
+
+  <div class="container-x relative">
+    <div class="grid lg:grid-cols-12 gap-14 lg:gap-20 mb-24">
+      <div class="lg:col-span-6">
+        <div class="eyebrow mb-6" data-reveal>07 — Ready when you are</div>
+        <h2 id="contact-h" class="h2 mb-7" data-reveal>Have a project<br />in <em>mind?</em></h2>
+        <p class="lede mb-10" data-reveal>Tell us what you’re building. We’ll reply within 24 hours with next steps and a free discovery call.</p>
+        <div class="flex flex-col sm:flex-row gap-3 mb-10" data-reveal>
+          <a href="https://www.fiverr.com/s/996pQoe" target="_blank" rel="noopener" class="btn btn-solid btn-lg" data-magnet><span class="btn-ring"></span><span class="btn-face">Order on Fiverr <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+          <a href="mailto:aerovise9@gmail.com" data-email class="btn btn-ghost btn-lg" data-magnet><span class="btn-ring"></span><span class="btn-face"><span data-email-text>aerovise9@gmail.com</span></span></a>
+        </div>
+        <ul class="space-y-3 text-sm text-muted" data-reveal>
+          <li class="flex items-center gap-3"><svg class="w-3 h-3 text-brand" aria-hidden="true"><use href="#i-star"/></svg>Reply within 24 hours, any timezone</li>
+          <li class="flex items-center gap-3"><svg class="w-3 h-3 text-brand" aria-hidden="true"><use href="#i-star"/></svg>Fixed quote before any work starts</li>
+          <li class="flex items-center gap-3"><svg class="w-3 h-3 text-brand" aria-hidden="true"><use href="#i-star"/></svg>You work directly with both founders</li>
+          <li class="flex items-center gap-3" id="wa-row" hidden><svg class="w-3 h-3 text-brand" aria-hidden="true"><use href="#i-star"/></svg><a id="wa-link" class="link-u" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a></li>
+        </ul>
+      </div>
+
+      <form id="brief" class="lg:col-span-6 card p-6 md:p-9 grid gap-5" data-reveal novalidate>
+        <div class="flex items-center justify-between mb-1"><span class="eyebrow before:hidden">Project brief</span><span class="text-[11px] text-muted font-mono">~ 1 min</span></div>
+        <div class="grid sm:grid-cols-2 gap-5">
+          <div class="field"><label for="f-name">Name</label><input class="input" id="f-name" name="name" autocomplete="name" placeholder="Jane Cooper" required /></div>
+          <div class="field"><label for="f-email">Email</label><input class="input" id="f-email" name="email" type="email" autocomplete="email" placeholder="jane@brand.com" required /></div>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-5">
+          <div class="field"><label for="f-type">I need</label>
+            <select class="input" id="f-type" name="type"><option>A new website</option><option>An e-commerce store</option><option>A redesign</option><option>AI automation</option><option>Website + automation</option><option>Not sure yet</option></select></div>
+          <div class="field"><label for="f-budget">Budget</label>
+            <select class="input" id="f-budget" name="budget"><option>Under $350</option><option selected>$350 – $799</option><option>$800+</option><option>Let’s talk</option></select></div>
+        </div>
+        <div class="field"><label for="f-msg">About the project</label><textarea class="input" id="f-msg" name="message" placeholder="What are you building, and what does success look like?" required></textarea></div>
+        <div class="flex flex-col sm:flex-row sm:items-center gap-4 pt-1">
+          <button type="submit" class="btn btn-solid" data-magnet><span class="btn-ring"></span><span class="btn-face">Send brief <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></span></button>
+          <p id="brief-status" class="text-xs text-muted leading-relaxed" role="status" aria-live="polite">Opens your email app with everything filled in.</p>
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-stroke pt-12">
+      <div class="grid md:grid-cols-12 gap-10 mb-12">
+        <div class="md:col-span-5">
+          <a href="#home" class="inline-flex items-center gap-3 mb-5"><span class="block w-5 h-9"><svg class="logo-mark" viewBox="0 0 244 430" aria-hidden="true"><use href="#logo"/></svg></span><span class="font-display text-3xl font-light tracking-tight">Aerovise<span class="text-gradient">.</span></span></a>
+          <p class="text-sm text-muted leading-relaxed max-w-sm">Cinematic websites and intelligent automation for ambitious brands. Built by Saif &amp; Sharafat Alamgir.</p>
+        </div>
+        <nav class="md:col-span-3" aria-label="Footer">
+          <div class="eyebrow before:hidden mb-4">Explore</div>
+          <ul class="space-y-2.5 text-sm text-muted">
+            <li><a class="hover:text-text-primary transition-colors" href="#work">Work</a></li>
+            <li><a class="hover:text-text-primary transition-colors" href="#services">Services</a></li>
+            <li><a class="hover:text-text-primary transition-colors" href="#studio">Studio</a></li>
+            <li><a class="hover:text-text-primary transition-colors" href="#process">Process</a></li>
+            <li><a class="hover:text-text-primary transition-colors" href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+        <div class="md:col-span-2">
+          <div class="eyebrow before:hidden mb-4">Connect</div>
+          <ul class="space-y-2.5 text-sm text-muted">
+            <li><a class="hover:text-text-primary transition-colors" href="https://www.instagram.com/aerovise.tech/" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a class="hover:text-text-primary transition-colors" href="https://www.facebook.com/profile.php?id=61573357297036" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a class="hover:text-text-primary transition-colors" href="https://www.fiverr.com/s/kLPkjRb" target="_blank" rel="noopener">Fiverr</a></li>
+          </ul>
+        </div>
+        <div class="md:col-span-2">
+          <div class="eyebrow before:hidden mb-4">Studio time</div>
+          <p class="text-sm text-muted leading-relaxed">Chattogram, BD<br /><span id="local-time" class="font-mono text-text-primary">—</span></p>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row items-center justify-between gap-5 pb-2 text-xs text-muted">
+        <div class="flex items-center gap-3"><span class="chip chip-live !border-0 !p-0 !text-[11px] !tracking-[.2em]">Available for projects</span></div>
+        <p>© <span data-year>2026</span> Aerovise. All rights reserved.</p>
+        <button type="button" id="to-top" class="btn btn-ghost btn-sm" aria-label="Back to top"><span class="btn-ring"></span><span class="btn-face">Back to top <svg class="arr" aria-hidden="true"><use href="#i-up"/></svg></span></button>
+      </div>
+    </footer>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ LIVE PREVIEW DIALOG ============ -->
+<dialog id="preview" class="preview" aria-label="Live site preview" data-lenis-prevent>
+  <div class="browser-chrome !py-3">
+    <i class="b-dot !bg-[#ff5f57]"></i><i class="b-dot !bg-[#febc2e]"></i><i class="b-dot !bg-[#28c840]"></i>
+    <span class="b-url" id="preview-url">—</span>
+    <a id="preview-open" class="btn btn-solid btn-sm ml-2 hidden sm:inline-flex" href="#" target="_blank" rel="noopener"><span class="btn-ring"></span><span class="btn-face">Open live site <svg class="arr" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+    <button type="button" id="preview-close" class="ml-1 w-8 h-8 grid place-items-center rounded-full border border-stroke hover:bg-white/10 transition-colors" aria-label="Close preview"><svg class="w-3.5 h-3.5" aria-hidden="true"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="preview-body">
+    <div class="preview-loading" id="preview-loading">Loading preview…</div>
+    <iframe id="preview-frame" title="Live site preview" loading="lazy" referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
+  </div>
+  <p class="px-4 py-2.5 text-[11px] text-muted border-t border-stroke bg-surface-2 font-mono">Preview blank? Some sites block embedding — use “Open live site”. Press Esc to close.</p>
+</dialog>
+
+<script src="assets/js/vendor/gsap.min.js" defer></script>
+<script src="assets/js/vendor/ScrollTrigger.min.js" defer></script>
+<script src="assets/js/vendor/lenis.min.js" defer></script>
+<script src="assets/js/vendor/motion.min.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+<noscript><style>html.js [data-reveal], html.js [data-hero]{opacity:1!important;transform:none!important}html.js .hero-word{transform:none!important}#loader{display:none!important}</style></noscript>
+</body>
+</html>

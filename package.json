@@ -1,0 +1,14 @@
+{
+  "name": "aerovise-site",
+  "private": true,
+  "version": "5.1.0",
+  "description": "Aerovise — Web Design & AI Automation Studio (static site)",
+  "scripts": {
+    "build": "tailwindcss -c tailwind.config.js -i src/input.css -o assets/css/styles.css --minify",
+    "watch": "tailwindcss -c tailwind.config.js -i src/input.css -o assets/css/styles.css --watch",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
